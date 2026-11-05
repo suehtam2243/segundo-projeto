@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #101c3a, #244b80);
+    color: #333;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 17px;
+}
+
+.container {
+    max-width: 750px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.card, .resultado {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+h2 {
+    color: #244b80;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+label {
+    display: block;
+    margin: 15px 0 8px;
+    font-weight: bold;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #163f9c;
+    transform: scale(1.02);
+}
+
+.resultado {
+    line-height: 1.8;
+    min-height: 130px;
+}
+
+.resultado h2 {
+    color: #2563eb;
+}
+
+.resultado ul {
+    margin-left: 25px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 25px;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    .container {
+        padding: 12px;
+    }
+
+    .card, .resultado {
+        padding: 20px;
+    }
+}

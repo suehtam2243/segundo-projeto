@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor de Carreiras com IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🚀 Mentor de Carreiras com IA</h1>
+        <p>Descubra seu futuro profissional com a ajuda da Inteligência Artificial!</p>
+    </header>
+
+    <main class="container">
+
+        <section class="card">
+            <h2>Encontre sua carreira ideal</h2>
+
+            <p>
+                Conte um pouco sobre seus interesses e habilidades.
+                Nosso mentor virtual vai ajudar você!
+            </p>
+
+            <label for="interesses">Quais são seus interesses?</label>
+            <textarea id="interesses"
+                placeholder="Ex: Gosto de tecnologia, programação, criatividade..."></textarea>
+
+            <label for="habilidades">Quais são suas habilidades?</label>
+            <input type="text" id="habilidades"
+                placeholder="Ex: Comunicação, criatividade, lógica">
+
+            <label for="objetivo">Qual é seu objetivo profissional?</label>
+            <select id="objetivo">
+                <option value="">Selecione uma opção</option>
+                <option value="Conseguir meu primeiro emprego">Primeiro emprego</option>
+                <option value="Mudar de carreira">Mudar de carreira</option>
+                <option value="Crescer profissionalmente">Crescimento profissional</option>
+                <option value="Aprender uma nova profissão">Aprender uma profissão</option>
+            </select>
+
+            <button onclick="gerarMentoria()">
+                Descobrir minha carreira
+            </button>
+
+        </section>
+
+        <section class="resultado" id="resultado">
+            <h2>🤖 Seu Mentor Virtual</h2>
+            <p>Suas recomendações aparecerão aqui.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Projeto: Programação com IA - Construindo um Mentor de Carreiras</p>
+        <p>Desenvolvido com HTML, CSS e JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
